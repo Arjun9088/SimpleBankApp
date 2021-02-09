@@ -30,6 +30,8 @@ public class TransferService
 		{
 			System.out.println("File error");
 		}
+		String [] header = {"Transaction Id","Source Account","Destination Account","Amount","Status"};
+		writer.writeNext(header);
 	}
 	
 	
